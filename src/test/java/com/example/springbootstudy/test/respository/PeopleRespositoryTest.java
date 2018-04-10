@@ -6,12 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.example.springbootstudy.SpringBootStudyApplication;
+import com.example.springbootstudy.Application;
 import com.example.springbootstudy.entity.People;
 import com.example.springbootstudy.respository.PeopleRespository;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = SpringBootStudyApplication.class)
+@SpringBootTest(classes = Application.class)
 public class PeopleRespositoryTest {
 	@Autowired
 	private PeopleRespository peopleRespositroy;

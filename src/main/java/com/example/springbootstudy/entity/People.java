@@ -1,17 +1,17 @@
 package com.example.springbootstudy.entity;
 
-import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@javax.persistence.Entity
+@Entity
 public class People {
 	@Id
 	@GeneratedValue
 	private String id;
-	@Column(nullable = false)
+	// @Column(nullable = false)
 	private String name;
-	@Column(nullable = false)
+	// @Column(nullable = false)
 	private int age;
 
 	public People() {
